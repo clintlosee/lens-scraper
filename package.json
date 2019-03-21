@@ -1,0 +1,21 @@
+{
+  "name": "lens-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "node -r esm index.js"
+  },
+  "keywords": [],
+  "author": "Clint Losee <clint.losee@gmail.com> (clintlosee.me)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.2.18",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
